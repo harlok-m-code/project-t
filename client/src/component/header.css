@@ -1,0 +1,50 @@
+html {
+    margin: 0;
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    font-family: serif;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 1920px;
+    height: 80px;
+
+    background-color: rgb(30, 153, 190);
+}
+
+.h-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1400px;
+    margin: 0 auto;
+}
+.tasks {
+    display: inline-block;
+    font-size: 35px;
+    line-height: 75px;
+}
+.out {
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    background-color: rgb(71, 171, 177);
+}
+
+.out:hover {
+    background-color: rgb(205, 246, 247);
+    transition: background 0.5s linear;
+}
+

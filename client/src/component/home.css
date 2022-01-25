@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial,serif;
+}
+
+.container{
+    width: 1920px;
+}
+
+.main{
+    width: 560px;
+    height: 272px;
+
+    margin: 300px auto;
+
+    text-align: center;
+}
+
+.main input {
+    width: 300px;
+
+    margin: 10px auto;
+    padding: 10px;
+    display: block;
+
+}
+
+.main button {
+    width: 96px;
+    height: 40px;
+}
